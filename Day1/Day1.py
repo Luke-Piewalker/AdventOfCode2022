@@ -1,5 +1,5 @@
 def get_calorie_sums():
-    with open('/Users/oakleyk/Documents/Coding/Python/AdventOfCode2022/Day1/Day1Input.txt', 'r') as file:
+    with open('Day1Input.txt', 'r') as file:
         return [sum(map(int, x.split('\n'))) for x in file.read().strip().split('\n\n')]
 
 
